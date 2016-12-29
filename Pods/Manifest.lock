@@ -1,0 +1,12 @@
+PODS:
+  - QBImagePickerController (3.4.0)
+
+DEPENDENCIES:
+  - QBImagePickerController (>= 3.0.0)
+
+SPEC CHECKSUMS:
+  QBImagePickerController: d54cf93db6decf26baf6ed3472f336ef35cae022
+
+PODFILE CHECKSUM: b879e6b59195de26ea28e79257d33eeae9434814
+
+COCOAPODS: 1.0.1

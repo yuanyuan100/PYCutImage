@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B3C934516A3F30B7823C455 /* libPods-cutImageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F828C1367319D5F5BFDE48C /* libPods-cutImageDemo.a */; };
+		F60A4C871E113CFE000FD444 /* PYCutImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F60A4C861E113CFE000FD444 /* PYCutImageManager.m */; };
+		F6289EBB1E10A7230094C63F /* PYImagPickManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F6289EBA1E10A7230094C63F /* PYImagPickManager.m */; };
+		F6289EBF1E10C3AC0094C63F /* PYEditImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6289EBE1E10C3AC0094C63F /* PYEditImageController.m */; };
+		F6289EC31E10C4B20094C63F /* PYEditingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6289EC21E10C4B20094C63F /* PYEditingImageView.m */; };
+		F6289EC51E10C4BD0094C63F /* PYEditingImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6289EC41E10C4BD0094C63F /* PYEditingImageView.xib */; };
+		F6289ED01E1117580094C63F /* UIImage+PYEditImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F6289ECF1E1117580094C63F /* UIImage+PYEditImage.m */; };
+		F6FEA12D1E0E526900C6E1B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA12C1E0E526900C6E1B0 /* main.m */; };
+		F6FEA1301E0E526900C6E1B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA12F1E0E526900C6E1B0 /* AppDelegate.m */; };
+		F6FEA1331E0E526900C6E1B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA1321E0E526900C6E1B0 /* ViewController.m */; };
+		F6FEA1361E0E526900C6E1B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6FEA1341E0E526900C6E1B0 /* Main.storyboard */; };
+		F6FEA1381E0E526900C6E1B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6FEA1371E0E526900C6E1B0 /* Assets.xcassets */; };
+		F6FEA13B1E0E526900C6E1B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6FEA1391E0E526900C6E1B0 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F828C1367319D5F5BFDE48C /* libPods-cutImageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cutImageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9161E566915B477C124E2429 /* Pods-cutImageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cutImageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cutImageDemo/Pods-cutImageDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F0AA8EFCB6E25DB8ADC39BF8 /* Pods-cutImageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cutImageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-cutImageDemo/Pods-cutImageDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F60A4C851E113CFE000FD444 /* PYCutImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYCutImageManager.h; sourceTree = "<group>"; };
+		F60A4C861E113CFE000FD444 /* PYCutImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYCutImageManager.m; sourceTree = "<group>"; };
+		F6289EB91E10A7230094C63F /* PYImagPickManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYImagPickManager.h; sourceTree = "<group>"; };
+		F6289EBA1E10A7230094C63F /* PYImagPickManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYImagPickManager.m; sourceTree = "<group>"; };
+		F6289EBD1E10C3AC0094C63F /* PYEditImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYEditImageController.h; sourceTree = "<group>"; };
+		F6289EBE1E10C3AC0094C63F /* PYEditImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYEditImageController.m; sourceTree = "<group>"; };
+		F6289EC11E10C4B20094C63F /* PYEditingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYEditingImageView.h; sourceTree = "<group>"; };
+		F6289EC21E10C4B20094C63F /* PYEditingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYEditingImageView.m; sourceTree = "<group>"; };
+		F6289EC41E10C4BD0094C63F /* PYEditingImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PYEditingImageView.xib; sourceTree = "<group>"; };
+		F6289EC61E10CAD80094C63F /* PYCutImageHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYCutImageHeader.h; sourceTree = "<group>"; };
+		F6289ECE1E1117580094C63F /* UIImage+PYEditImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PYEditImage.h"; sourceTree = "<group>"; };
+		F6289ECF1E1117580094C63F /* UIImage+PYEditImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PYEditImage.m"; sourceTree = "<group>"; };
+		F6FEA1281E0E526900C6E1B0 /* cutImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cutImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6FEA12C1E0E526900C6E1B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6FEA12E1E0E526900C6E1B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6FEA12F1E0E526900C6E1B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6FEA1311E0E526900C6E1B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F6FEA1321E0E526900C6E1B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F6FEA1351E0E526900C6E1B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6FEA1371E0E526900C6E1B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6FEA13A1E0E526900C6E1B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6FEA13C1E0E526900C6E1B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6FEA1251E0E526900C6E1B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B3C934516A3F30B7823C455 /* libPods-cutImageDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EE2655755FF8243E197EFAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F828C1367319D5F5BFDE48C /* libPods-cutImageDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3B1367ADF1510217FAA663E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9161E566915B477C124E2429 /* Pods-cutImageDemo.debug.xcconfig */,
+				F0AA8EFCB6E25DB8ADC39BF8 /* Pods-cutImageDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F6289EB81E10A6E50094C63F /* PYImagePickViewVC */ = {
+			isa = PBXGroup;
+			children = (
+				F6289EB91E10A7230094C63F /* PYImagPickManager.h */,
+				F6289EBA1E10A7230094C63F /* PYImagPickManager.m */,
+			);
+			path = PYImagePickViewVC;
+			sourceTree = "<group>";
+		};
+		F6289EBC1E10C29D0094C63F /* PYEditImage */ = {
+			isa = PBXGroup;
+			children = (
+				F6289ECD1E1117320094C63F /* Category */,
+				F6289EC01E10C48B0094C63F /* View */,
+				F6289EBD1E10C3AC0094C63F /* PYEditImageController.h */,
+				F6289EBE1E10C3AC0094C63F /* PYEditImageController.m */,
+			);
+			path = PYEditImage;
+			sourceTree = "<group>";
+		};
+		F6289EC01E10C48B0094C63F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F6289EC11E10C4B20094C63F /* PYEditingImageView.h */,
+				F6289EC21E10C4B20094C63F /* PYEditingImageView.m */,
+				F6289EC41E10C4BD0094C63F /* PYEditingImageView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6289ECD1E1117320094C63F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F6289ECE1E1117580094C63F /* UIImage+PYEditImage.h */,
+				F6289ECF1E1117580094C63F /* UIImage+PYEditImage.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F6FEA11F1E0E526900C6E1B0 = {
+			isa = PBXGroup;
+			children = (
+				F6FEA12A1E0E526900C6E1B0 /* cutImageDemo */,
+				F6FEA1291E0E526900C6E1B0 /* Products */,
+				F3B1367ADF1510217FAA663E /* Pods */,
+				7EE2655755FF8243E197EFAB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F6FEA1291E0E526900C6E1B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6FEA1281E0E526900C6E1B0 /* cutImageDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6FEA12A1E0E526900C6E1B0 /* cutImageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F6FEA1421E0E57F000C6E1B0 /* PYCutImage */,
+				F6FEA12E1E0E526900C6E1B0 /* AppDelegate.h */,
+				F6FEA12F1E0E526900C6E1B0 /* AppDelegate.m */,
+				F6FEA1311E0E526900C6E1B0 /* ViewController.h */,
+				F6FEA1321E0E526900C6E1B0 /* ViewController.m */,
+				F6FEA1341E0E526900C6E1B0 /* Main.storyboard */,
+				F6FEA1371E0E526900C6E1B0 /* Assets.xcassets */,
+				F6FEA1391E0E526900C6E1B0 /* LaunchScreen.storyboard */,
+				F6FEA13C1E0E526900C6E1B0 /* Info.plist */,
+				F6FEA12B1E0E526900C6E1B0 /* Supporting Files */,
+			);
+			path = cutImageDemo;
+			sourceTree = "<group>";
+		};
+		F6FEA12B1E0E526900C6E1B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6FEA12C1E0E526900C6E1B0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6FEA1421E0E57F000C6E1B0 /* PYCutImage */ = {
+			isa = PBXGroup;
+			children = (
+				F6289EBC1E10C29D0094C63F /* PYEditImage */,
+				F6289EB81E10A6E50094C63F /* PYImagePickViewVC */,
+				F6289EC61E10CAD80094C63F /* PYCutImageHeader.h */,
+				F60A4C851E113CFE000FD444 /* PYCutImageManager.h */,
+				F60A4C861E113CFE000FD444 /* PYCutImageManager.m */,
+			);
+			path = PYCutImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6FEA1271E0E526900C6E1B0 /* cutImageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6FEA13F1E0E526900C6E1B0 /* Build configuration list for PBXNativeTarget "cutImageDemo" */;
+			buildPhases = (
+				F54A1FBDC1247280EEA416EC /* [CP] Check Pods Manifest.lock */,
+				F6FEA1241E0E526900C6E1B0 /* Sources */,
+				F6FEA1251E0E526900C6E1B0 /* Frameworks */,
+				F6FEA1261E0E526900C6E1B0 /* Resources */,
+				91484E50EC7BBEA45AF99660 /* [CP] Embed Pods Frameworks */,
+				458777533B25AA7FCA476A87 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cutImageDemo;
+			productName = cutImageDemo;
+			productReference = F6FEA1281E0E526900C6E1B0 /* cutImageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6FEA1201E0E526900C6E1B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = IAsk;
+				TargetAttributes = {
+					F6FEA1271E0E526900C6E1B0 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 3NL3YDJRJ5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F6FEA1231E0E526900C6E1B0 /* Build configuration list for PBXProject "cutImageDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6FEA11F1E0E526900C6E1B0;
+			productRefGroup = F6FEA1291E0E526900C6E1B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6FEA1271E0E526900C6E1B0 /* cutImageDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6FEA1261E0E526900C6E1B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6FEA13B1E0E526900C6E1B0 /* LaunchScreen.storyboard in Resources */,
+				F6FEA1381E0E526900C6E1B0 /* Assets.xcassets in Resources */,
+				F6289EC51E10C4BD0094C63F /* PYEditingImageView.xib in Resources */,
+				F6FEA1361E0E526900C6E1B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		458777533B25AA7FCA476A87 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cutImageDemo/Pods-cutImageDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91484E50EC7BBEA45AF99660 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cutImageDemo/Pods-cutImageDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F54A1FBDC1247280EEA416EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6FEA1241E0E526900C6E1B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6FEA1331E0E526900C6E1B0 /* ViewController.m in Sources */,
+				F60A4C871E113CFE000FD444 /* PYCutImageManager.m in Sources */,
+				F6FEA1301E0E526900C6E1B0 /* AppDelegate.m in Sources */,
+				F6289EC31E10C4B20094C63F /* PYEditingImageView.m in Sources */,
+				F6289ED01E1117580094C63F /* UIImage+PYEditImage.m in Sources */,
+				F6FEA12D1E0E526900C6E1B0 /* main.m in Sources */,
+				F6289EBF1E10C3AC0094C63F /* PYEditImageController.m in Sources */,
+				F6289EBB1E10A7230094C63F /* PYImagPickManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6FEA1341E0E526900C6E1B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6FEA1351E0E526900C6E1B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6FEA1391E0E526900C6E1B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6FEA13A1E0E526900C6E1B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6FEA13D1E0E526900C6E1B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6FEA13E1E0E526900C6E1B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6FEA1401E0E526900C6E1B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9161E566915B477C124E2429 /* Pods-cutImageDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3NL3YDJRJ5;
+				INFOPLIST_FILE = cutImageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IAsk.cutImageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6FEA1411E0E526900C6E1B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0AA8EFCB6E25DB8ADC39BF8 /* Pods-cutImageDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3NL3YDJRJ5;
+				INFOPLIST_FILE = cutImageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IAsk.cutImageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6FEA1231E0E526900C6E1B0 /* Build configuration list for PBXProject "cutImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6FEA13D1E0E526900C6E1B0 /* Debug */,
+				F6FEA13E1E0E526900C6E1B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6FEA13F1E0E526900C6E1B0 /* Build configuration list for PBXNativeTarget "cutImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6FEA1401E0E526900C6E1B0 /* Debug */,
+				F6FEA1411E0E526900C6E1B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6FEA1201E0E526900C6E1B0 /* Project object */;
+}
